@@ -1,0 +1,4 @@
+﻿  Factory.cpp
+E:\OOP\lab 4 Парвки\LabaevARMS4.1\Detail.h(52,20): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+E:\OOP\lab 4 Парвки\LabaevARMS4.1\Factory.h(56,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  LabaevARMS4.vcxproj -> E:\OOP\lab 4 Парвки\LabaevARMS4.1\x64\Debug\LabaevARMS4.exe

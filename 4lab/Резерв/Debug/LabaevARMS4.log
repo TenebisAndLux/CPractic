@@ -1,0 +1,9 @@
+﻿  Detail.cpp
+E:\OOP\LabaevARMS4\Detail.h(21,25): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  Engineer.cpp
+  Factory.cpp
+  LabaevARMS4.cpp
+E:\OOP\LabaevARMS4\Detail.h(21,25): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  Personal.cpp
+  Создание кода...
+  LabaevARMS4.vcxproj -> E:\OOP\LabaevARMS4\Debug\LabaevARMS4.exe

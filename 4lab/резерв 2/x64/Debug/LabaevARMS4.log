@@ -1,0 +1,36 @@
+﻿  Detail.cpp
+E:\lab 4 Парвки\Резерв\Detail.h(59,20): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  Engineer.cpp
+E:\lab 4 Парвки\Резерв\Detail.h(59,20): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+E:\lab 4 Парвки\Резерв\Engineer.cpp(87,28): warning C4305: =: усечение из "double" в "float"
+  Factory.cpp
+E:\lab 4 Парвки\Резерв\Detail.h(59,20): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  GeneralOfDepartment.cpp
+E:\lab 4 Парвки\Резерв\Detail.h(59,20): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  LabaevARMS4.cpp
+E:\lab 4 Парвки\Резерв\Detail.h(59,20): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+E:\lab 4 Парвки\Резерв\Manager.h(23,44): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\lab 4 Парвки\Резерв\Manager.h(39,14): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+E:\lab 4 Парвки\Резерв\Randomization.h(182,16): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+E:\lab 4 Парвки\Резерв\Randomization.h(208,15): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+E:\lab 4 Парвки\Резерв\Randomization.h(214,15): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+E:\lab 4 Парвки\Резерв\LabaevARMS4.cpp(38,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+E:\lab 4 Парвки\Резерв\LabaevARMS4.cpp(57,137): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\lab 4 Парвки\Резерв\LabaevARMS4.cpp(63,113): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\lab 4 Парвки\Резерв\LabaevARMS4.cpp(76,143): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\lab 4 Парвки\Резерв\LabaevARMS4.cpp(93,140): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\lab 4 Парвки\Резерв\LabaevARMS4.cpp(102,137): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  Manager.cpp
+E:\lab 4 Парвки\Резерв\Detail.h(59,20): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+E:\lab 4 Парвки\Резерв\Manager.h(23,44): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+E:\lab 4 Парвки\Резерв\Manager.h(39,14): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  Personal.cpp
+E:\lab 4 Парвки\Резерв\Detail.h(59,20): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  Randomization.cpp
+E:\lab 4 Парвки\Резерв\Randomization.h(182,16): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+E:\lab 4 Парвки\Резерв\Randomization.h(208,15): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+E:\lab 4 Парвки\Резерв\Randomization.h(214,15): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+  Worker.cpp
+E:\lab 4 Парвки\Резерв\Detail.h(59,20): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  Создание кода...
+  LabaevARMS4.vcxproj -> E:\lab 4 Парвки\Резерв\x64\Debug\LabaevARMS4.exe

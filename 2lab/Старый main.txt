@@ -1,0 +1,116 @@
+int main(){
+	cout << "This program is designed to perform operations with fractions, the structure of which is: [(1) or (0)," << endl;
+	cout << " responsible for the sign (+) or (-)] a / b" << endl;
+	
+	int referenceNumerator;
+	int referenceDenominator;
+	bool referenceIsNegative;
+	
+	cout << "Enter the first fraction." << endl;
+	cout << "Fraction isNegative? (1 or 0): " << endl;
+	cin >> referenceIsNegative;
+	cout << "Fraction numerator: " << endl;
+	cin >> referenceNumerator;
+	cout << "Fraction denominator: " << endl;
+	cin >> referenceDenominator;
+	
+	Fraction Fraction1 = Fraction(referenceNumerator,referenceDenominator,referenceIsNegative);
+	
+	cout << "1st Fraction: " << endl;
+	Fraction1.PrintFraction();
+	cout << endl;
+	
+	 
+	cout << "Enter a fraction for joint operations." << endl;
+	cout << "Fraction isNegative? (1 or 0): " << endl;
+	cin >> referenceIsNegative;
+	cout << "Fraction numerator: " << endl;
+	cin >> referenceNumerator;
+	cout << "Fraction denominator: " << endl;
+	cin >> referenceDenominator;
+	
+	Fraction Fraction2 = Fraction(referenceNumerator,referenceDenominator,referenceIsNegative);
+	
+	cout << "2ed Fraction:" << endl;
+	Fraction2.PrintFraction();
+	cout << endl;
+	
+	Fraction ComFraction1 = Fraction1.Commondenominator(Fraction2);
+	Fraction ComFraction2 = Fraction2.Commondenominator(Fraction1);
+	
+	int chooseValue = 0;
+	
+	while (chooseValue < 1 || chooseValue > 8) {
+		
+		cout << "What action do you want to perform?" << endl;
+		cout << "1. Calculate the sum of two fractions" << endl;
+		cout << "2. Calculate the difference between two fractions" << endl;
+		cout << "3. Multiply two fractions" << endl;
+		cout << "4. Perform division of two fractions" << endl;
+		cout << "5. Bring two fractions to a common denominator" << endl;
+		cout << "6. Compare two fractions" << endl;
+		cout << "7. Output to the console of the transferred fraction" << endl;
+		cin >> chooseValue;
+	}
+	
+	switch (chooseValue) {
+		case(1):{
+			Fraction resultFraction = ComFraction1.SumFractions(ComFraction2);
+			resultFraction.PrintFraction();
+			break;
+		}
+		case(2):{
+			Fraction resultFraction = ComFraction1.SubFractions(ComFraction2);
+			resultFraction.PrintFraction();
+			break;
+		}
+		case(3):{
+			Fraction resultFraction = Fraction1.MultFractions(Fraction2);
+			resultFraction.PrintFraction();
+			break;
+		}
+		case(4):{
+			Fraction resultFraction = Fraction1.DivFractions(Fraction2);
+			resultFraction.PrintFraction();
+			break;
+		}
+		case(5):{
+			ComFraction1.PrintFraction();
+			ComFraction2.PrintFraction();
+			break;
+		}
+		case(6):{
+			int Comparison = ComFraction1.CompFractions(ComFraction2);
+			cout<<Comparison;
+			break;
+		}
+		case(7):{
+			int Fracchoose;
+			cout<<"Which fraction to display: the first fraction (1) or the second (2)"<<endl;
+			cin>>Fracchoose;
+			
+			switch (Fracchoose){
+				
+				case(1):{
+					Fraction1.PrintFraction();
+					cout<<"Fraction reduced to a common denominator"<<endl;
+					ComFraction1.PrintFraction();
+					break;
+				}
+				case(2):{
+					Fraction2.PrintFraction();
+					cout<<"Fraction reduced to a common denominator"<<endl;
+					ComFraction2.PrintFraction();
+					break;
+				}
+				default:
+					break;
+				}
+				
+			break;
+			}
+		default:
+		break;	
+	}
+return 0;	
+}

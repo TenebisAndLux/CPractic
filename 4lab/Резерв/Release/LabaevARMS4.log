@@ -1,0 +1,8 @@
+﻿  Factory.cpp
+E:\lab 4 Парвки\LabaevARMS4\Detail.h(59,20): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  Создание кода
+  2 of 205 functions ( 1.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  LabaevARMS4.vcxproj -> E:\lab 4 Парвки\LabaevARMS4\Release\LabaevARMS4.exe

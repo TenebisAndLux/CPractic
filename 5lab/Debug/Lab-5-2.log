@@ -1,0 +1,8 @@
+﻿  Lab-5-2.cpp
+D:\OOP\Lab-5-2\DynArray.h(32,13): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+D:\OOP\Lab-5-2\Lab-5-2.cpp(8,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\OOP\Lab-5-2\DynArray.h(188): warning C4715: InitDynArr<int,50>::operator[]: значение возвращается не при всех путях выполнения
+D:\OOP\Lab-5-2\DynArray.h(188): warning C4715: InitDynArr<float,50>::operator[]: значение возвращается не при всех путях выполнения
+D:\OOP\Lab-5-2\DynArray.h(312): warning C4715: InitDynArr<char *,50>::operator[]: значение возвращается не при всех путях выполнения
+D:\OOP\Lab-5-2\DynArray.h(188): warning C4715: InitDynArr<Vec2,50>::operator[]: значение возвращается не при всех путях выполнения
+  Lab-5-2.vcxproj -> D:\OOP\Lab-5-2\Debug\Lab-5-2.exe

@@ -1,0 +1,4 @@
+E:\lab 4 Парвки\LabaevARMS4.1\x64\Debug\LabaevARMS4.exe
+E:\lab 4 Парвки\LabaevARMS4.1\x64\Debug\LabaevARMS4.pdb
+E:\lab 4 Парвки\Резерв\x64\Debug\LabaevARMS4.exe
+E:\lab 4 Парвки\Резерв\x64\Debug\LabaevARMS4.pdb
